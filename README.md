@@ -1,4 +1,4 @@
-# A2HA: Attribute-Aware Hierarchical Alignment for Text-Image Person Re-Identification
+
 
 
 ## Data preparation

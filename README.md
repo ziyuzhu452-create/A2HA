@@ -3,14 +3,14 @@
 
 ## Data preparation
 1. Download the CUHK-PEDES dataset from [here](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description), ICFG-PEDES dataset from [here](https://github.com/zifyloo/SSAN) and RSTPReid dataset form [here](https://github.com/NjtechCVLab/RSTPReid-Dataset)
-2. Download image_attribute_segment_outputs [BaiduYun(code: vbss)]() which are the masks of image attributes segmented with the Grounded SAM, and save it in (e.g. ~/datasets/outputs/).
-3. For more attribute categories, use the provided [Grounded SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) to generate the attribute segmentations. We will provide the modifed code.
+2. Download image_attribute_segment_outputs [BaiduYun(code: qwer)](https://pan.baidu.com/s/1iHdwmsDZhH4G4cwZGoR3Dg?pwd=qwer) which are the masks of image attributes segmented with the Grounded SAM, and save it in (e.g. ~/datasets/outputs/).
+3. For more attribute categories, use the provided [Grounded SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) to generate the attribute segmentations. We will provide the modifed code in the future.
 
 '''
 cd ".../Grounded-Segment-Anything-main"; python grounded_sam_a2ha.py
 '''
 
-4. Download text_attribute_annotation [BaiduYun(code: vbss)]() which are the parsed description of human attributes from the original annotations in CUHK-PEDES, ICFG-PEDES, and RSTPReid datasets.
+4. Download text_attribute_annotation [BaiduYun(code: qwer)](https://pan.baidu.com/s/1MqbtxV2nHAIe9cr3WUb1lw?pwd=qwer) which are the parsed description of human attributes from the original annotations in CUHK-PEDES, ICFG-PEDES, and RSTPReid datasets.
 
 Your `datasets` directory should look like this:
 |-- your dataset root dir/
